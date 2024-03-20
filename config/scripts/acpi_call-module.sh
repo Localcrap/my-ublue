@@ -1,6 +1,5 @@
 #!/bin/bash
 
-set -euo pipefail
 ln -sf /usr/bin/ld.bfd /etc/alternatives/ld && ln -sf /etc/alternatives/ld /usr/bin/ld
 
 # Récupération des variables cibles
